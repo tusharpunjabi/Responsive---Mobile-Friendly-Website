@@ -1,0 +1,37 @@
+@media screen and (max-width: 950px){
+    .banner{
+        height: 80%;
+    }
+    .quote{
+        color: #fff;
+        text-align: center;
+        padding: 20%;
+        font-size: 1.6em;
+    }
+    .quote span{
+        color: rgb(146, 224, 127);
+        font-family: 'Lobster', cursive;
+        display: block;
+    }
+    .main{
+        display: none;
+    }
+    section{
+        padding: 20px;
+    }
+    section .row{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .row .col50{
+        position: relative;
+        width: 100%;
+    }
+    .row .col50 .img{
+        height:300px;
+        margin-top: 20px;
+    }
+    .menu .content{
+        margin-top: 5px;
+    }
+}
